@@ -14,7 +14,7 @@ function App() {
         <Router basename="/">
           <NavBar />
           <Routes>
-            <Route path="/" exact element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             {/*  <Route path='/:projectId' exact component={Project} /> */}
           </Routes>
