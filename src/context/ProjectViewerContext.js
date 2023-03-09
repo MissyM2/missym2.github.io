@@ -16,27 +16,27 @@ const ProjectViewerProvider = ({ children }) => {
       tech: [
         {
           name: 'HTML5',
-          link: require('../images/icons8-html-5-50.png'),
+          link: require('../images/html-5.png'),
         },
         {
           name: 'CSS3',
-          link: require('../images/icons8-css3-50.png'),
+          link: require('../images/css3.png'),
         },
         {
           name: 'Javascript',
-          link: require('../images/icons8-javascript-50.png'),
+          link: require('../images/javascript.png'),
         },
         {
           name: 'React',
-          link: require('../images/icons8-react-native-50.png'),
+          link: require('../images/react-native.png'),
         },
         {
           name: 'NodeJS',
-          link: require('../images/icons8-nodejs-50.png'),
+          link: require('../images/nodejs.png'),
         },
         {
           name: 'MongoDB',
-          link: require('../images/icons8-mongodb-50.png'),
+          link: require('../images/mongodb.png'),
         },
       ],
       overview:
@@ -202,27 +202,27 @@ const ProjectViewerProvider = ({ children }) => {
       tech: [
         {
           name: 'HTML5',
-          link: require('../images/icons8-html-5-50.png'),
+          link: require('../images/html-5.png'),
         },
         {
           name: 'CSS3',
-          link: require('../images/icons8-css3-50.png'),
+          link: require('../images/css3.png'),
         },
         {
           name: 'Javascript',
-          link: require('../images/icons8-javascript-50.png'),
+          link: require('../images/javascript.png'),
         },
         {
           name: 'React',
-          link: require('../images/icons8-react-native-50.png'),
+          link: require('../images/react-native.png'),
         },
         {
           name: 'NodeJS',
-          link: require('../images/icons8-nodejs-50.png'),
+          link: require('../images/nodejs.png'),
         },
         {
           name: 'MongoDB',
-          link: require('../images/icons8-mongodb-50.png'),
+          link: require('../images/mongodb.png'),
         },
       ],
       overview:
@@ -255,19 +255,19 @@ const ProjectViewerProvider = ({ children }) => {
       tech: [
         {
           name: 'HTML5',
-          link: require('../images/icons8-html-5-50.png'),
+          link: require('../images/html-5.png'),
         },
         {
           name: 'CSS3',
-          link: require('../images/icons8-css3-50.png'),
+          link: require('../images/css3.png'),
         },
         {
           name: 'Javascript',
-          link: require('../images/icons8-javascript-50.png'),
+          link: require('../images/javascript.png'),
         },
         {
           name: 'JQuery',
-          link: require('../images/icons8-jquery-50.png'),
+          link: require('../images/jquery.png'),
         },
       ],
       overview:
@@ -290,7 +290,7 @@ const ProjectViewerProvider = ({ children }) => {
     },
     {
       id: 4,
-      image: require('../images/do__image.png'),
+      image: require('../images/do.png'),
       imageAlt: "Dinner's On",
       type: 'Design',
       title: "Dinner's On",
@@ -298,11 +298,11 @@ const ProjectViewerProvider = ({ children }) => {
       tech: [
         {
           name: 'Balsamiq',
-          link: require('../images/balsamiq-ar21.png'),
+          link: require('../images/balsamiq.png'),
         },
         {
           name: 'Figma',
-          link: require('../images/figma-ar21.png'),
+          link: require('../images/figma.png'),
         },
       ],
       overview:

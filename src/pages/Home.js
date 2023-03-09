@@ -3,12 +3,12 @@ import Hero from '../components/Hero';
 import ProjectList from '../components/ProjectList';
 
 const Home = () => {
-    return (
-        <div>
-            <Hero />
-            <ProjectList />
-        </div>
-    )
-}
+  return (
+    <div >
+      <Hero />
+      <ProjectList />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
