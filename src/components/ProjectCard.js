@@ -17,31 +17,29 @@ const ProjectCard = (props) => {
       <div class="clear"></div>
       {props.title === "Dinner's On" ? (
         <div className="btn__container">
-          <button
-            type="button"
-            className="btn btn__light view-code not-visible"
-          >
-            View code
+          <button type="button" className="btn">
+            Click here to view code on Github
           </button>
         </div>
       ) : (
-        <div className="btn__container">
-          <a
-            className="card__links-action"
-            href={props.github}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button type="button" className="btn btn__light view-code">
-              View code
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            <button type="button" className="btn">
+              Click here to view code on Github
             </button>
           </a>
-          <a
+          {/* <a
             className="card__links-action"
             href={props.project}
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          ></a> */}
         </div>
       )}
       <div className="card__content">
@@ -52,7 +50,7 @@ const ProjectCard = (props) => {
         <ItemList
           itemlist={props.reports}
           key={props.id}
-          title="Design Reports"
+          title="Click Here to View Design Documents."
           itemtype="reports"
         />
         {/*   )} */}
@@ -60,12 +58,18 @@ const ProjectCard = (props) => {
         {/*  {props.artifacts.length > 0 && ( */}
         <ItemList
           itemlist={props.artifacts}
-          title="Design Artifacts"
+          title="Click Here to View Design Artifacts."
           itemtype="artifacts"
         />
         {/*  )} */}
       </div>
-      <div className="card__image-container">
+      <div
+        style={{
+          display: 'inline-flex',
+          justifyContent: 'flex-start',
+          backgroundColor: '#dc8dce',
+        }}
+      >
         <img className="card__image" src={props.image} alt={props.imageAlt} />
       </div>
     </div>

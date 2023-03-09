@@ -5,74 +5,82 @@
 } */
 
 .App {
-/*   padding:5px;  */
+  /*   padding:5px;  */
 }
 
 .container {
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
 .projects {
   padding: 16px 0;
 
   &__grid-container {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
 }
 
 .clear {
-  clear:both;
+  clear: both;
 }
 
 .btn {
   width: auto;
   font-size: 1em;
-  padding:5px 10px;
+  color: #b91b9c;
+  padding: 5px 10px;
   min-width: 100px;
 
   &__border-radius {
-  border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  &__bright {
+    
+    font-size: 5em;
   }
 
   &__container {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
 
   &__dark {
     color: var(--app-white);
     background: var(--text-highlight-darker);
     min-width: 134px;
-    border: 2px solid var( --text-highlight-darker);
+    border: 2px solid var(--text-highlight-darker);
 
     &:hover {
       cursor: pointer;
-      background-color: var( --text-highlight);
-      border: 2px solid var( --text-highlight);
-    } 
+      background-color: var(--text-highlight);
+      border: 2px solid var(--text-highlight);
+    }
   }
 
-  &__light, &__light-wide {
+  &__light,
+  &__light-wide {
     color: var(--text-highlight-darker);
     background: var(--app-white);
     min-width: 134px;
     border: 2px solid var(--text-highlight-darker);
 
-  &:hover {
-    cursor: pointer;
-    color: var(--app-white);
-    background-color: var(--text-highlight-darker);
-    border: 2px solid var(--text-highlight-darker);
+    &:hover {
+      cursor: pointer;
+      color: var(--app-white);
+      background-color: var(--text-highlight-darker);
+      border: 2px solid var(--text-highlight-darker);
+    }
   }
- }
 }
 
-  /* &__btn-light, &__light-wide {
+/* &__btn-light, &__light-wide {
     color: var(--highlight-3);
     background: var(--app-white);
     min-width: 134px;
@@ -84,8 +92,6 @@
       background-color: var(--highlight-3);
       border: 2px solid var(--highlight-3);
     }*/
-  
-  
 
 .project h2 {
   text-align: center;
@@ -101,7 +107,6 @@
   .projects__grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -115,9 +120,9 @@
     margin: auto;
   }
 
-  .btn-dark, .btn-light {
+  .btn-dark,
+  .btn-light {
     font-size: 1em;
     min-width: 150px;
   }
-
 }

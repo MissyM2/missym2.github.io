@@ -30,11 +30,12 @@ const ItemList = props => {
         <div className="btn__container">
           <button
             type="button"
-            className="btn btn__border-radius btn__light-wide"
+            className="btn"
             onClick={showHideItemList}
           >
-            {props.title} {props.itemlist.length}
+            {props.title}
           </button>
+          <div style={{textAlign:"center"}}>There are {props.itemlist.length} to view.</div>
         </div>
         <div>{itemlistvisible && <ul className="artifact__container">{artifacts}</ul>}</div>
       </div>
