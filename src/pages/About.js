@@ -1,7 +1,7 @@
 import React from 'react';
 
 import aboutImg from "../images/missy__img.png";
-import myResume from "../artifacts/missymaloneyresume10012020.pdf";
+import myResume from "../artifacts/fdmResume03102023.pdf";
 
 import '../styles/About.scss';
 

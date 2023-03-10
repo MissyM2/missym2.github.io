@@ -67,7 +67,6 @@ const ProjectCard = (props) => {
         style={{
           display: 'inline-flex',
           justifyContent: 'flex-start',
-          backgroundColor: '#dc8dce',
         }}
       >
         <img className="card__image" src={props.image} alt={props.imageAlt} />

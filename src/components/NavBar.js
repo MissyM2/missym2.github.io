@@ -70,7 +70,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link to="/about" className="menu__item">
-                  About
+                  About & View Resume
                 </Link>
               </li>
               <li>

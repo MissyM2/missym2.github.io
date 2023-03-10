@@ -1,28 +1,32 @@
 * {
   margin: 0;
-    border: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-  }
-
-html, body, section, article, aside {
-    min-height: 100%;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-  :root{
-    --darkest-color: #3C3C3C;
-    --background-color:#F2F3FC;
-    --background-color-contrast: #DEE0EE;
-    --body-text: #150359;
-    --text-highlight:#D63F29;
-    --highlight-2: #9BF4DC;
-    --highlight-3:#3745E4;
-    --light-accent: #AF473C;
-    --dark-accent: #AD6C71;
-    --white: #fffff; 
+html,
+body,
+section,
+article,
+aside {
+  min-height: 100%;
+}
+
+:root {
+  --darkest-color: #3c3c3c;
+  --background-color: #f2f3fc;
+  --background-color-contrast: #dee0ee;
+  --body-text: #150359;
+  --text-highlight: #dc8dce;
+  --highlight-2: #9bf4dc;
+  --highlight-3: #3745e4;
+  --light-accent: #af473c;
+  --dark-accent: #ad6c71;
+  --white: #fffff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -41,10 +45,10 @@ code {
 }
 
 a {
-  color:inherit;
-  text-decoration:inherit;
+  color: inherit;
+  text-decoration: inherit;
 
- /*  &:link {
+  /*  &:link {
     color: var(--dark-accent);
   }
   &:visited {
@@ -63,11 +67,10 @@ H2,
 H3,
 H4 {
   color: var(--dark-accent);
-
 }
 
 .links {
-      /* display:table;
+  /* display:table;
       width:30%;
       margin:auto;
       padding-top: 10px;
@@ -80,36 +83,35 @@ H4 {
           width: 50%;
           text-align:center;
         } */
-        &__btn-dark {
-            color: var(--highlight-3);         
-            background: var(--highlight-2);
-            padding:.3em;
-            text-align:center;
-            font-size:.7em;
-            font-weight:600;
-            border: 2px solid var(--body-text);
-        }
-       /*  &__btn-light{
+  &__btn-dark {
+    color: var(--highlight-3);
+    background: var(--highlight-2);
+    padding: 0.3em;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 600;
+    border: 2px solid var(--body-text);
+  }
+  /*  &__btn-light{
             color: var(--accent-color-3);
             background: var(--background-color);
             text-decoration: none;
             border: none;
             border: 2px solid var(--accent-color-3);
         } */
-  }
+}
 
-  @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
   .links {
-        &__btn-dark {
-             color: var(--highlight-3);         
-            background: var(--highlight-2);
-            padding:.6em;
-            text-align:center;
-            font-size:1.3em;
-            font-weight:700;
-            border: 2px solid var(--body-text);
-        }
-      }
-  
+    &__btn-dark {
+      color: var(--highlight-3);
+      background: var(--highlight-2);
+      padding: 0.6em;
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: 700;
+      border: 2px solid var(--body-text);
+    }
   }
-
+}
